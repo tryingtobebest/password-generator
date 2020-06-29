@@ -1,0 +1,56 @@
+* {
+	margin :0;
+	padding :0;
+	box-sizing : border-box;
+}
+main {
+	background-image : linear-gradient(#EB3349 , #F45C43);
+	background-size : cover;
+	background-repeat : no-repeat;
+	color : white;
+	text-align : center;
+	height : 100vh;
+	font-family : 'San-Sarif';
+}
+.everything {
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+}
+h1 {
+	font-size : 2rem;
+	letter-spacing : 2px;
+	white-space : nowrap;
+}
+.form {
+	margin-top : 1em;
+}
+.input {
+	border : none;
+	width : 5rem;
+	height : 2rem;
+	text-align : center;
+	margin-right : 1em;
+	border-radius : 2px;
+}
+button {
+	border : none;
+	border-radius : 2px;
+	color : #EB3349;
+	background-color : white;
+	padding : .6em 1em;
+	text-transform : capitalize;
+}
+.gen {
+	margin-top : 1em;
+	font-size : 1.1rem;
+}
+@media (min-width : 700px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	.gen {
+		font-size: 1.5rem;
+	}
+}
